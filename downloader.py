@@ -2,7 +2,7 @@
 import aiohttp, re, urllib.parse, asyncio
 from fake_useragent import UserAgent
 
-API_BASE = "https://fly-wispy-wildflower-2967.fly.dev"
+API_BASE = "httpas://fly-wispy-wildflower-2967.fly.dev"
 
 async def get_download_url(url: str):
     """جلب ستوريات انستغرام"""
